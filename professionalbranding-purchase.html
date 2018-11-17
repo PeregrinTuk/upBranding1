@@ -63,6 +63,19 @@
             <div class="widget-container">
                 <script type="text/javascript" id='pw_5befbedfadc51' src="https://app.paywhirl.com/pw.js"></script>
                 <script>paywhirl('widget', { autoscroll: 1, domain: 'upbranding', uuid: 'ac113bf7-9cd0-41a3-9227-43a02d672e40' }, 'pw_5befbedfadc51'); </script>
+                <form action="your-server-side-code" method="POST">
+                    <script
+                      src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                      data-key="pk_test_gZYAGM4LePjURntONv9VTQ0y"
+                      data-amount="999"
+                      data-name="upbranding.co"
+                      data-description="Widget"
+                      data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+                      data-locale="auto"
+                      data-currency="aud"
+                      data-zip-code="true">
+                    </script>
+                  </form>
             </div>
         </div>
         <div class="footer">
