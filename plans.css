@@ -199,6 +199,7 @@ html, body {
     transition: all 0.5s;
     cursor: pointer;
     margin: 2rem 0 0 0;
+    text-decoration: none;
 }
 .process-button:hover {
     background-color: #fff;
