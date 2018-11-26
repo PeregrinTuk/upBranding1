@@ -37,22 +37,23 @@
                     Get in touch with us right now and schedule a meeting
                 </div>
             </div>
+            <!-- Begin Mailchimp Signup Form -->
             <div id="mc_embed_signup">
-                <form class="formulario validate" target="_blank" action="https://upbranding.us19.list-manage.com/subscribe/post?u=11ef7a20ef1f29fa8c1f2d6db&amp;id=3124337fbc"
-                    id="mc-embedded-subscribe-form" @submit="checkForm" action="/something" method="post" name="mc-embedded-subscribe-form"
+                <form class="formulario" action="https://upbranding.us19.list-manage.com/subscribe/post?u=11ef7a20ef1f29fa8c1f2d6db&amp;id=3124337fbc"
+                    method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank"
                     novalidate>
                     <div class="formulario-general" id="mc_embed_signup_scroll">
                         <div class="mc-field-group">
-                            <input class="input" type="text" placeholder="First name" name="email" id="mce-FNAME" v-model="email">
+                            <input class="input" type="text"  placeholder="First name" value="" name="FNAME" class="" id="mce-FNAME">
                         </div>
                         <div class="mc-field-group">
-                            <input class="input" type="text" placeholder="Last name" name="name" id="mce-LNAME" v-model="name">
+                            <input class="input" type="text" placeholder="Last name" value="" name="LNAME" class="" id="mce-LNAME">
                         </div>
                         <div class="mc-field-group">
-                            <input class="input required email" type="email" placeholder="Email" name="email" id="mce-EMAIL" v-model="email">
+                            <input class="input asterisk" type="email" placeholder="Email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
                         </div>
                         <div class="mc-field-group size1of2">
-                            <input class="input" type="number" placeholder="Mobile number" name="name" id="mce-PHONE" v-model="name">
+                            <input class="input" type="text" placeholder="Mobile number" name="PHONE" class="" value="" id="mce-PHONE">
                         </div>
                         <div id="mce-responses" class="clear">
                             <div class="response" id="mce-error-response" style="display:none"></div>
@@ -62,12 +63,12 @@
                         <div style="position: absolute; left: -5000px;" aria-hidden="true">
                             <input type="text" name="b_11ef7a20ef1f29fa8c1f2d6db_3124337fbc" tabindex="-1" value="">
                         </div>
-                        <input class="registrarse button" type="submit" value="Contact us" name="subscribe" id="mc-embedded-subscribe">
+                        <div class="clear">
+                            <input type="submit" value="Contact us" name="subscribe" id="mc-embedded-subscribe" class="button registrarse ">
+                        </div>
                     </div>
                 </form>
             </div>
-            <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
-            <script type='text/javascript'>(function ($) { window.fnames = new Array(); window.ftypes = new Array(); fnames[1] = 'FNAME'; ftypes[1] = 'text'; fnames[2] = 'LNAME'; ftypes[2] = 'text'; fnames[0] = 'EMAIL'; ftypes[0] = 'email'; fnames[4] = 'PHONE'; ftypes[4] = 'phone'; }(jQuery)); var $mcj = jQuery.noConflict(true);</script>
             <!--End mc_embed_signup-->
         </div>
         <div class="panel-two">
