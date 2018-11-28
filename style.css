@@ -232,11 +232,36 @@ html, body {
     transition: all 0.5s;
     cursor: pointer;
     text-decoration: none;
+    margin-right: 1rem;
 }
 .process-button:hover {
     background-color: #fff;
     color: #1B76BC;
     border: 1px solid #1B76BC;
+}
+.contact-button {
+    border-radius: 4px;
+    padding: 10px 20px;
+    background-color: #fff;
+    border: 1px solid #1B76BC;
+    font-weight: 700;
+    font-size: 12px;
+    color: #1B76BC;
+    transition: all 0.5s;
+    cursor: pointer;
+    text-decoration: none;
+    margin-right: 1rem;
+}
+.contact-button:hover {
+    background-color: #1B76BC;
+    color: #fff;
+    border: 1px solid #1B76BC;
+}
+.both-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
 }
 .process-button-white {
     border-radius: 20px;
