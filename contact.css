@@ -438,6 +438,38 @@ html, body {
     .process-button-white {
         margin: 0;   
        }
+
+    .formulario-general {
+        padding: 0;
+    }
+    .input {
+        width: 300px;
+    }
+    .registrarse {
+        width: 300px;
+    }
+    .panel-three {
+        flex-direction: column;
+    }
+    .subtitle {
+        font-size: 1rem;
+        line-height: 20px;
+        max-width: 80%;
+    }
+    .container-form {
+        flex-direction: column;
+    }
+    .input {
+        margin-bottom: 1rem;
+    }
+}
+@media screen and (width:320px) {
+    .input {
+        width: 225px;
+    }
+    .registrarse {
+        width: 225px;
+    }
 }
 @media screen and (min-width:426px) and (max-width:769px) {
     .title {
@@ -476,9 +508,21 @@ html, body {
     .process-button-white {
      margin: 1rem 0;   
     }
+    .panel-three {
+        flex-direction: column;
+    }
+    .formulario-general {
+        padding: 0;
+    }
+    .input {
+        width: 300px;
+    }
+    .registrarse {
+        width: 300px;
+    }
 }
 
-@media screen and (min-width:768px) and (max-width:1024px) {
+@media screen and (min-width:769px) and (max-width:1024px) {
     .panel-four {
         margin: 2rem;
         grid-template-columns: repeat(2, minmax(350px, 1fr));
